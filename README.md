@@ -1,6 +1,9 @@
-# GreggBF
+# GreggBF: Handwritten Gregg Shorthand Centennial Edition Brief Forms Dataset
 
-**GreggBF** is the official repository for the supplementary materials of my undergraduate thesis on the recognition of handwritten **Gregg Shorthand Centennial Edition brief forms** using Convolutional Neural Networks (CNN). This repository serves as a centralized archive for datasets and resources that were too extensive to be included directly in the appendices of the final manuscript.
+**GreggBF** is a publicly available dataset of **handwritten Gregg Shorthand brief forms (Centennial Edition)**, collected and annotated for use in machine learning and handwriting recognition research. This repository also includes supplementary materials from the accompanying undergraduate thesis on CNN-based recognition of these symbols.
+
+📌 **Keywords**: Gregg Shorthand, Centennial Edition, brief forms, handwritten dataset, machine learning, deep learning, image classification, CNN, handwriting recognition, data augmentation
+
 
 ## 📘 Overview
 
