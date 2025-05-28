@@ -32,6 +32,13 @@ The `Dataset` folder contains four zipped archives, each organized to support di
    - **Use**: This is the **official dataset used in the thesis**. Recommended for reproduction and benchmarking.
    - **🛡️ Note**: **The data was first split into training/validation/test sets before any augmentation was applied**. This ensures that augmented images derived from the same original are not duplicated across different splits, **preventing data leakage** during evaluation.
 
+## 📝 Data Source and Validation
+
+- The dataset was collected from **Bachelor of Science in Office Administration (BSOA)** students at **South Philippine Adventist College**, who had prior exposure to Gregg Shorthand writing.
+- The **data collection process was reviewed and approved by the program chairperson**, ensuring its appropriateness for academic and research purposes.
+- However, due to time constraints, the **actual handwritten outputs were not formally validated for symbol accuracy**. As such, there may be inconsistencies or miswritten forms within the dataset.
+- If higher classification performance is required, **further data cleaning, outlier analysis, or handwriting validation** is highly recommended as future work.
+
 ## 📄 How to Use
 
 - Download `augmented-split-by_word.zip` if you're replicating or extending the experiment from the paper.
