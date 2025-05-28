@@ -1,6 +1,6 @@
 # GreggBF
 
-**GreggBF** is the official repository for the supplementary materials of my undergraduate thesis on the recognition of handwritten **Gregg Shorthand Centennial Edition brief forms** using deep learning. This repository serves as a centralized archive for datasets and resources that were too extensive to be included directly in the appendices of the final manuscript.
+**GreggBF** is the official repository for the supplementary materials of my undergraduate thesis on the recognition of handwritten **Gregg Shorthand Centennial Edition brief forms** using Convolutional Neural Networks (CNN). This repository serves as a centralized archive for datasets and resources that were too extensive to be included directly in the appendices of the final manuscript.
 
 ## 📘 Overview
 
@@ -11,7 +11,7 @@ This repository provides the full dataset used in the study, including original 
 The `Dataset` folder contains four zipped archives, each organized to support different experimental workflows:
 
 1. ### `by_participant.zip`
-   - **Description**: Contains augmented samples grouped by participant.
+   - **Description**: Contains **original, augmentation-free handwritten samples** grouped by participant.
    - **Structure**: 139 classes × 27 participants.
    - Useful for participant-specific model analysis or inter-writer variability studies.
 
