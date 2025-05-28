@@ -27,6 +27,7 @@ The `Dataset` folder contains four zipped archives, each organized to support di
    - **Description**: An augmented version of `split-by_word`, with 17 augmentation variations applied per image.
    - **Structure**: `(1 original + 17 augmentations) × 139 classes`.
    - **Use**: This is the **official dataset used in the thesis**. Recommended for reproduction and benchmarking.
+   - **🛡️ Note**: **The data was first split into training/validation/test sets before any augmentation was applied**. This ensures that augmented images derived from the same original are not duplicated across different splits, **preventing data leakage** during evaluation.
 
 ## 📄 How to Use
 
