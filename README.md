@@ -55,5 +55,6 @@ The `Dataset` folder contains four zipped archives, each organized to support di
 
 If you use this dataset or any part of this repository, please cite:
 
-> Silva, L. (2025). *HANDWRITTEN GREGG SHORTHAND BRIEF FORMS RECOGNITION USING CONVOLUTIONAL NEURAL NETWORKS*. Undergraduate Thesis, South Philippine Adventist College.
+> Silva, L. (2025). *HANDWRITTEN GREGG SHORTHAND BRIEF FORMS RECOGNITION USING CONVOLUTIONAL NEURAL NETWORKS* (Unpublished undergraduate thesis). South Philippine Adventist College.
+📌 This work is based on an undergraduate thesis currently in preparation/submission. The citation above will be updated once officially archived or published.
 
