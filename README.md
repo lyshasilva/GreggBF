@@ -1,78 +1,77 @@
 # HANDWRITTEN GREGG SHORTHAND BRIEF FORMS RECOGNITION USING CONVOLUTIONAL NEURAL NETWORKS
 
-This is the public repository for my study on handwritten Gregg Shorthand brief forms recognition using convolutional neural networks (CNNs). It contains the complete source code, the GreggBF Dataset, and confusion matrices generated from the experiments.
+This is the public repository for my study on handwritten Gregg Shorthand brief forms recognition using convolutional neural networks (CNNs). It contains the complete source code, confusion matrices, and access to the GreggBF Dataset used in the experiments.
 
-The project evaluates and compares three adapted CNN models—AlexNet, Inception-V3, and EfficientNetB0—for recognizing 139 classes of Gregg Shorthand brief forms using the GreggBF dataset.
+The project evaluates and compares three adapted CNN models—**AlexNet**, **Inception-V3**, and **EfficientNetB0**—in recognizing 139 classes of handwritten Gregg Shorthand brief forms based on the Centennial Edition.
+
+---
 
 ## 📚 GreggBF Dataset
 
-**GreggBF** is a publicly available dataset of **handwritten Gregg Shorthand brief forms (Centennial Edition)**, collected and annotated for use in machine learning and handwriting recognition research. This repository also includes supplementary materials from the accompanying undergraduate thesis on CNN-based recognition of these symbols.
+**GreggBF** is a publicly available dataset of handwritten Gregg Shorthand brief forms, collected and annotated for machine learning and handwriting recognition research. The dataset includes over **67,000 samples** across **139 classes**, gathered from 27 participants with prior shorthand training.
 
-📌 **Keywords**: Gregg Shorthand, Centennial Edition, brief forms, handwritten dataset, machine learning, deep learning, image classification, CNN, handwriting recognition, data augmentation
+> ⚠️ **Note**: Due to size constraints, the dataset is not stored directly in this repository.
 
----
+### 📥 Dataset Download
 
-## 📦 Dataset Download
-
-Because of file size limitations, the dataset is **not hosted directly in this repository**. You can download the full dataset from the following Dropbox link:
+You can download the full dataset, including all original and augmented versions, from the following Dropbox link:
 
 🔗 **[Download GreggBF Dataset](https://www.dropbox.com/scl/fo/76ciws7z0vtb3glgi9ixf/AIYCkYsANxKnzlj0r7xV2KE?rlkey=po4uefua5s70qj5bll6zqnfd9&st=m7eoel5r&dl=0)**
 
-After downloading, extract the `.zip` file(s) and follow the usage instructions below.
-
 ---
 
-## 📘 Overview
+## 📁 Dataset Contents
 
-This repository provides the full dataset used in the study, including original and augmented samples across 139 shorthand brief form classes. These resources support reproducibility, further experimentation, and peer review of the results presented in the thesis.
-
----
-
-## 📁 Contents
-
-The `Dataset` folder contains four zipped archives, each structured to support different experimental workflows:
+The `Dataset` folder includes four zipped archives for different workflows:
 
 1. ### `by_participant.zip`
-   - **Original handwritten samples**, grouped by participant.
-   - 139 classes × 27 participants.
+   - **Original, augmentation-free samples**, grouped by participant  
+   - 139 classes × 27 participants
 
 2. ### `by_word.zip`
-   - Same data, grouped by class/word instead of participant.
-   - 139 class folders.
+   - Same samples, grouped by class instead of participant  
+   - 139 class folders
 
 3. ### `split-by_word.zip`
-   - A 70/15/15 (train/val/test) split version of `by_word`.
+   - A **70/15/15** split (train/val/test) version of `by_word`  
+   - For standardized evaluation
 
 4. ### `augmented-split-by_word.zip` ✅ **[Recommended]**
-   - Augmented version of `split-by_word`, with 17 augmentation variations per image.
-   - Structure: (1 original + 17 augmentations) × 139 classes.
-   - **Used in the thesis experiments.**
-   - 🛡️ **Note**: Augmentation was applied *after* splitting to prevent data leakage between sets.
-
----
-
-## 📝 Data Source and Validation
-
-- Collected from **BSOA students** at **South Philippine Adventist College** familiar with Gregg Shorthand.
-- Approved by the program chairperson for academic use.
-- **No formal validation** of handwriting correctness was conducted; inconsistencies may be present.
-- Users are encouraged to perform additional **data cleaning or validation** for high-accuracy applications.
+   - Includes 17 augmentation variations per image  
+   - Used in all model experiments  
+   - 📌 **Augmentations were applied *after* the dataset was split**, avoiding data leakage
 
 ---
 
 ## 🛠️ How to Use
 
 1. Download `augmented-split-by_word.zip` from the link above.
-2. Unzip and load into your machine learning pipeline (e.g., TensorFlow, PyTorch).
-3. Each class folder corresponds to one Gregg brief form label.
+2. Unzip the dataset.
+3. Load it into your machine learning pipeline (e.g., TensorFlow, PyTorch).  
+   - Each folder corresponds to one brief form class label.
 
 ---
 
-## 📝 Notes
+## 📝 Data Collection and Validation
 
-- Class names follow Gregg Centennial brief forms.
-- 27 participants contributed handwritten samples.
-- Augmentations include geometric and visual noise variations.
+- Collected from **BSOA students** at **South Philippine Adventist College** with Gregg Shorthand exposure
+- Approved by the program chairperson for research use
+- **Not formally validated for symbol accuracy** — inconsistencies may exist
+- For high-precision tasks, consider additional **data cleaning and validation**
+
+---
+
+## 📘 Project Scope
+
+- Evaluates performance of **AlexNet**, **Inception-V3**, and **EfficientNetB0** on GreggBF
+- Metrics used: **Accuracy**, **F1-score**, **ROC-AUC**, and **Confusion Matrix Analysis**
+- Includes **source code**, **confusion matrix outputs**, and **thesis documentation**
+
+---
+
+## 🔍 Keywords
+
+Gregg Shorthand, Centennial Edition, brief forms, handwritten dataset, machine learning, deep learning, image classification, CNN, handwriting recognition, data augmentation
 
 ---
 
@@ -83,3 +82,4 @@ If you use this dataset or any part of this repository, please cite:
 > Silva, L. (2025). *Handwritten Gregg Shorthand Brief Forms Recognition Using Convolutional Neural Networks* (Unpublished undergraduate thesis). South Philippine Adventist College.
 
 📌 This work is based on an undergraduate thesis currently in preparation/submission. The citation will be updated once officially archived or published.
+
