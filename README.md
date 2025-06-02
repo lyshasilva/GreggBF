@@ -1,5 +1,9 @@
 # HANDWRITTEN GREGG SHORTHAND BRIEF FORMS RECOGNITION USING CONVOLUTIONAL NEURAL NETWORKS
 
+This is the public repository for my study on handwritten Gregg Shorthand brief forms recognition using convolutional neural networks (CNNs). It contains the complete source code, the GreggBF Dataset, and confusion matrices generated from the experiments.
+
+The project evaluates and compares three adapted CNN models—AlexNet, Inception-V3, and EfficientNetB0—in recognizing 139 classes of Gregg Shorthand brief forms using the GreggBF dataset.
+
 **GreggBF** is a publicly available dataset of **handwritten Gregg Shorthand brief forms (Centennial Edition)**, collected and annotated for use in machine learning and handwriting recognition research. This repository also includes supplementary materials from the accompanying undergraduate thesis on CNN-based recognition of these symbols.
 
 📌 **Keywords**: Gregg Shorthand, Centennial Edition, brief forms, handwritten dataset, machine learning, deep learning, image classification, CNN, handwriting recognition, data augmentation
