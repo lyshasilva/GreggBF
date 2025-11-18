@@ -30,7 +30,7 @@ The `Dataset` folder includes four zipped archives for different workflows:
 
 2. ### `by_word.zip` ✅ **[Recommended]**
    - **Original, augmentation-free samples**, grouped by **class**
-   - the starting dataset for the source code
+   - The starting dataset for the source code
    - 139 classes x 27 participants
 
 3. ### `split-by_word.zip`
@@ -41,7 +41,7 @@ The `Dataset` folder includes four zipped archives for different workflows:
    - Augmented version of 'split-by-word'
    - Includes 17 augmentation variations per image  
    - Used in all model experiments
-   - Can be duplicated using 'by_word.zip' or 'spit-by_word.zip' by following the methodology of my paper  
+   - Can be duplicated using 'by_word.zip' or 'spit-by_word.zip' by following the methodology and source code of my paper  
    - 📌 **Augmentations were applied *after* the dataset was split**, avoiding data leakage
 
 ---
