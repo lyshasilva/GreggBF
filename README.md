@@ -25,11 +25,12 @@ You can download the dataset from the following Dropbox link:
 The `Dataset` folder includes four zipped archives for different workflows:
 
 1. ### `by_participant.zip` ❌ [Not available due to storage limitation]
-   - **Original, augmentation-free samples**, grouped by participant  
+   - **Original, augmentation-free samples**, grouped by **participant**  
    - 139 classes × 27 participants
 
 2. ### `by_word.zip` ✅ **[Recommended]**
-   - **Original, augmentation-free samples**, grouped by class instead of participant  
+   - **Original, augmentation-free samples**, grouped by **class**
+   - the starting dataset for the source code
    - 139 classes x 27 participants
 
 3. ### `split-by_word.zip`
