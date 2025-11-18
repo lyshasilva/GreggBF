@@ -33,7 +33,7 @@ The `Dataset` folder includes four zipped archives for different workflows:
    - The starting dataset for the source code
    - 139 classes x 27 participants
 
-3. ### `split-by_word.zip`
+3. ### `split-by_word.zip` **[Upload Ongoing]**
    - A **70/15/15** split (train/val/test) version of `by_word`  
    - For standardized evaluation
 
