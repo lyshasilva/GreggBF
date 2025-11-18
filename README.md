@@ -33,15 +33,16 @@ The `Dataset` folder includes four zipped archives for different workflows:
    - The starting dataset for the source code
    - 139 classes x 27 participants
 
-3. ### `split-by_word.zip` **[Upload Ongoing]**
-   - A **70/15/15** split (train/val/test) version of `by_word`  
+3. ### `split-by_word.zip` **[Ongoing Upload]**
+   - A **70/15/15** split (train/val/test) version of `by_word` 
    - For standardized evaluation
+   - Can be duplicated using 'by_word.zip' by following the methodology and running the source code
 
 4. ### `augmented-split-by_word.zip` ❌ [Not available due to storage limitation]
    - Augmented version of 'split-by-word'
    - Includes 17 augmentation variations per image  
    - Used in all model experiments
-   - Can be duplicated using 'by_word.zip' or 'spit-by_word.zip' by following the methodology and source code of my paper  
+   - Can be reproduced using 'by_word.zip' or 'spit-by_word.zip' by following the methodology and running the source code
    - 📌 **Augmentations were applied *after* the dataset was split**, avoiding data leakage
 
 ---
