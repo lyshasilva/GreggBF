@@ -1,8 +1,8 @@
 # HANDWRITTEN GREGG SHORTHAND BRIEF FORMS RECOGNITION USING CONVOLUTIONAL NEURAL NETWORKS
-
+<!--
 This is the public repository for my study on handwritten Gregg Shorthand brief forms recognition using Convolutional Neural Networks (CNNs). It contains the complete source code, confusion matrices, and access to the GreggBF Dataset used in the experiments.
 
-The project evaluates and compares three adapted CNN models—**AlexNet**, **Inception-V3**, and **EfficientNetB0**—in recognizing 139 classes of handwritten Gregg Shorthand brief forms based on the Centennial Edition.
+The project evaluates and compares three adapted CNN models—**AlexNet**, **Inception-V3**, and **EfficientNetB0**—in recognizing 139 classes of handwritten Gregg Shorthand brief forms based on the Centennial Edition.-->
 
 ---
 
@@ -19,7 +19,7 @@ You can download the dataset from the following Dropbox link:
 🔗 **[Download GreggBF Dataset](https://www.dropbox.com/scl/fo/76ciws7z0vtb3glgi9ixf/AIYCkYsANxKnzlj0r7xV2KE?rlkey=po4uefua5s70qj5bll6zqnfd9&st=m7eoel5r&dl=0)**
 
 ---
-
+<!--
 ## 📁 Dataset Contents
 
 The `Dataset` folder includes four zipped archives for different workflows:
@@ -71,6 +71,7 @@ The `Dataset` folder includes four zipped archives for different workflows:
 - Metrics used: **Accuracy**, **F1-score**, **ROC-AUC**, and **Confusion Matrix Analysis**
 - Includes **source code**, **confusion matrix outputs**, and **thesis documentation**
 
+-->
 ---
 
 ## 🔍 Keywords
@@ -78,7 +79,7 @@ The `Dataset` folder includes four zipped archives for different workflows:
 Gregg Shorthand, Centennial Edition, brief forms, handwritten dataset, machine learning, deep learning, image classification, CNN, handwriting recognition, data augmentation
 
 ---
-
+<!--
 ## 📚 Citation
 
 If you use this dataset or any part of this repository, please cite:
@@ -86,4 +87,4 @@ If you use this dataset or any part of this repository, please cite:
 > Silva, L. (2025). *Handwritten Gregg Shorthand Brief Forms Recognition Using Convolutional Neural Networks* (Unpublished undergraduate thesis). South Philippine Adventist College.
 
 📌 This work is based on an undergraduate thesis currently in preparation/submission. The citation will be updated once officially archived or published.
-
+-->
