@@ -8,7 +8,7 @@ The project evaluates and compares three adapted CNN models—**AlexNet**, **Inc
 
 ## 📚 GreggBF Dataset
 
-**GreggBF** is a publicly available dataset of handwritten Gregg Shorthand brief forms, collected and annotated for machine learning and handwriting recognition research. The dataset includes **3,753** (`by_word.zip`)original handwritten samples expanded to **67,554** images **(`augmented-split-by_word.zip`)** through data augmentation across 139 classes
+**GreggBF** is a publicly available dataset of handwritten Gregg Shorthand brief forms, collected and annotated for machine learning and handwriting recognition research. The dataset includes **3,753** (`by_word.zip`) original handwritten samples expanded to **67,554** images (`augmented-split-by_word.zip`; currently not available due to storage limitation) through data augmentation across 139 classes
 
 > ⚠️ **Note**: Due to size constraints, the dataset is not stored directly in this repository.
 
