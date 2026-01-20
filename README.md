@@ -6,17 +6,21 @@ The project evaluates and compares three adapted CNN models—**AlexNet**, **Inc
 
 ---
 
-## 📚 GreggBF Dataset
+# GreggBF Dataset
 
-**GreggBF** is a publicly available dataset of handwritten Gregg Shorthand brief forms, collected and annotated for machine learning and handwriting recognition research. The dataset includes **3,753** (`by_word.zip`) original handwritten samples expanded to **67,554** images through data augmentation across 139 classes (`augmented-split-by_word.zip`; currently not available due to storage limitation).
+**GreggBF** is a publicly available dataset of handwritten Gregg Shorthand brief forms, created for machine learning and handwriting recognition research. It contains **3,753 original samples** (`by_word.zip`) across 139 classes, which can be expanded to **67,554 images** via data augmentation (`augmented-split-by_word.zip`; currently unavailable due to storage limits).
 
-> ⚠️ **Note**: Due to size constraints, the dataset is not stored directly in this repository.
+**Note:** Due to size constraints, the dataset is hosted externally and is not stored directly in this repository.
 
-### 📥 Dataset Download
+# EfficientNetB0 Final Model
 
-You can download the dataset from the following Dropbox link:
+The best-performing model from this study, **EfficientNetB0**, is also available.
 
-🔗 **[Download GreggBF Dataset](https://www.dropbox.com/scl/fo/76ciws7z0vtb3glgi9ixf/AIYCkYsANxKnzlj0r7xV2KE?rlkey=po4uefua5s70qj5bll6zqnfd9&st=m7eoel5r&dl=0)**
+# Download
+
+You can download the dataset and model from the following link:
+
+[Download GreggBF Dataset](https://www.dropbox.com/scl/fo/76ciws7z0vtb3glgi9ixf/AIYCkYsANxKnzlj0r7xV2KE?rlkey=po4uefua5s70qj5bll6zqnfd9&st=m7eoel5r&dl=0)
 
 ---
 <!--
