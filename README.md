@@ -22,6 +22,9 @@ You can download the dataset and model from the following link:
 
 [Download GreggBF Dataset](https://www.dropbox.com/scl/fo/76ciws7z0vtb3glgi9ixf/AIYCkYsANxKnzlj0r7xV2KE?rlkey=po4uefua5s70qj5bll6zqnfd9&st=m7eoel5r&dl=0)
 
+# Appendix
+The 'appendix' folder contains the full confusion matrices of the three cnn models created in this study, as well as the compilation of the Gregg Shorthand brief form symbols.
+
 ---
 <!--
 ## 📁 Dataset Contents
